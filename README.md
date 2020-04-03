@@ -20,5 +20,5 @@ This function will train the gathered images and makes them ready for the predic
 3.trackimages   
 This function once executed will pops up a window which contains a camera and tracks your face.Once you press q or Q the camera will capture and store the details of the person and the time when the attendance was taken will be stored in the respective CSV file.
 
-HAARCASCADE CLASSIFIER
+HAARCASCADE CLASSIFIER  
 It is used to recognize the face. This classifier will consider every tracked face as a 128 dimensional feature vector and will be used to recognize where it will be matched with predicted image's vector dimensionalities.
